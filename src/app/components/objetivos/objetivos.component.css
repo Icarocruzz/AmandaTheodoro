@@ -1,0 +1,46 @@
+
+
+@media screen and (min-width: 128px) and (max-width: 900px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    background: var(--gradient);
+  }
+
+  .tittle {
+    margin-top: 20px;
+    text-align: center;
+    font-family: var(--tittle-font);
+  }
+
+  .tittle h1 {
+    font-size: 2rem;
+    font-family: var(--tittle-font), serif;
+    color: var(--dark);
+  }
+
+  .text {
+    margin-left: 20px;
+    padding: 0 20px;
+    font-family: var(--text-font);
+  }
+  .text p {
+    text-align: justify;
+    font-size: 1.1rem;
+  }
+
+  .list {
+    margin-left: 20px;
+    padding: 0 20px;
+    font-family: var(--text-font);
+  }
+
+  .list h2 {
+    font-weight: 400;
+  }
+
+  .list li {
+    font-family: var(--text-font);
+    font-size: 1.1rem;
+  }
+}
