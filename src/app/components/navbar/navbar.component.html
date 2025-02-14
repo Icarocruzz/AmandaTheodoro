@@ -1,25 +1,24 @@
-<nav class="fixed top-0 left-0 w-full z-50">
-  <div class="flex justify-between items-center max-w-6xl mx-auto md:my-2 bg-stone-950/30 p-4 md:rounded-xl backdrop-blur-lg ">
-    <div class="text-white font-semibold tex-lg uppercase">
-      <a href="/">
-        Amanda Theodoro
-      </a>
-    </div>
-
-    <div class="md:w-3/4 flex justify-end items-center">
-      <div class="menu-icon" (click)="openMenu()">
-        <i class="{{menu_icon}}"></i>
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-3 col-3">
+        <div class="logo">
+          <img src="/icon-holdplace.png" class="logo" alt="">
+        </div>
       </div>
-
-    <div class="desktop_menu hidden md:flex space-x-8" [class.mobile_menu]="menuValue">
-      <ul class="text-white focus:outline-none" aria-label>
-        <li (click)="closeMenu()">Atendimento</li>
-        <li (click)="closeMenu()">Psicologia</li>
-        <li (click)="closeMenu()">Contato</li>
-      </ul>
+      <div class="col-md-9 col-sm-9 col-9 text-end">
+        <div class="menu-icon" (click)="openMenu()">
+          <i class="{{menu_icon}}"></i>
+        </div>
+        <div class="desktop_menu" [class.mobile_menu]="menuValue">
+          <ul>
+            <li (click)="closeMenu()">Objetivos</li>
+            <li (click)="closeMenu()">Atendimentos</li>
+            <li (click)="closeMenu()">Psicoterapia</li>
+            <li (click)="closeMenu()">Contatos</li>
+          </ul>
+        </div>
+      </div>
     </div>
-
   </div>
-    </div>
-
-</nav>
+</header>

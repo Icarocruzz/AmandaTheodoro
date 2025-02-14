@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+:root {
+  --tittle-font: "Monomakh", serif;
+  --text-font:"Poppins", serif;
+  --primary: #AD8A6E;
+  --secondary: #D4B8A2;
+  --dark: #AF794F;
+  --light: #F0ECE9;
+  --grey:#807F7F;
+  --black: #333;
+  --white: #fff;
+  --gradient:  linear-gradient(to left, var(--primary), var(--white));
+  --btn-green:#008000;
+  --btn-green-hover: #006b00;
+  --btn-purple:#A020F0;
+}
