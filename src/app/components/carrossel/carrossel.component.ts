@@ -29,21 +29,22 @@ export class CarrosselComponent {
     autoplaySpeed: 3000,
     pauseOnHover: true,
     infinite: true,
-    arrows: true,
+    arrows: false,
+    dots: true,
     responsive: [
       {
         breakpoint: 128,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
-          arrows: true,
+          arrows: false,
           infinite: true,
         }
       },
       {
         breakpoint: 900,
         settings: {
-          arrows: true,
+          arrows: false,
           infinite: true,
           slidesToShow: 1,
           slidesToScroll: 1

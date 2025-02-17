@@ -6,10 +6,13 @@ import {BannerComponent} from './components/banner/banner.component';
 import {ObjetivosComponent} from './components/objetivos/objetivos.component';
 import {AtendimentosComponent} from './components/atendimentos/atendimentos.component';
 import {CarrosselComponent} from './components/carrossel/carrossel.component';
+import {AboutComponent} from './components/about/about.component';
+import {BeneficiosComponent} from './components/beneficios/beneficios.component';
+import {AcompanhamentoComponent} from './components/acompanhamento/acompanhamento.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NavbarComponent, BannerComponent, ObjetivosComponent, AtendimentosComponent, CarrosselComponent],
+  imports: [RouterOutlet, NavbarComponent, BannerComponent, ObjetivosComponent, AtendimentosComponent, CarrosselComponent, AboutComponent, BeneficiosComponent, AcompanhamentoComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

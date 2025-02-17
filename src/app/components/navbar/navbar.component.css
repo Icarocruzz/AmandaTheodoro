@@ -1,8 +1,11 @@
-header {
+nav {
   padding: 10px;
   background: var(--dark);
-
+  position: fixed;
+  width: 100%;
+  z-index: 50;
 }
+
 .logo {
   width: 90px;
 }
@@ -41,7 +44,9 @@ header {
     background: var(--dark);
     width: 280px;
     height: 100%;
+    z-index: 50;
   }
+
   .desktop_menu ul li {
     display: block;
     text-align: left;

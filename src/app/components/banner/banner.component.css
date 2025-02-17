@@ -9,6 +9,10 @@ main {
   background: var(--light);
 }
 
+.main-banner {
+  z-index: 2;
+}
+
 .main-section {
   flex-grow: 1;
   flex-direction: column;
@@ -37,6 +41,7 @@ main {
   text-align: center;
   position: absolute;
   margin-bottom: 500px;
+  margin-top: 200px;
 }
 
 .tittle h1 {
@@ -62,7 +67,6 @@ main {
   color: var(--black);
   padding: 10px;
   margin-top: 10%;
-
 }
 
 .atendimento p {
@@ -94,7 +98,9 @@ main {
 
   .name {
     position: relative;
-    margin: 0;
+    z-index: 0;
+    margin-top: 100px;
+    margin-bottom: 0;
   }
 
   .name h1 {
@@ -112,6 +118,10 @@ main {
   .tittle p {
     color: var(--grey);
     text-transform: uppercase;
+  }
+
+  .content h2 {
+    margin-top:0;
   }
 
   .content {
