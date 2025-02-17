@@ -4,10 +4,11 @@ import {NavbarComponent} from './components/navbar/navbar.component';
 import {MatIconModule} from '@angular/material/icon';
 import {BannerComponent} from './components/banner/banner.component';
 import {ObjetivosComponent} from './components/objetivos/objetivos.component';
+import {AtendimentosComponent} from './components/atendimentos/atendimentos.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NavbarComponent, BannerComponent, ObjetivosComponent],
+  imports: [RouterOutlet, NavbarComponent, BannerComponent, ObjetivosComponent, AtendimentosComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
