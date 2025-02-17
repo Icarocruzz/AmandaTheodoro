@@ -10,7 +10,7 @@ section {
 
 .tittle h1 {
   font-size: 5rem;
-  font-family: var(--tittle-font);
+  font-family: var(--tittle-font), sans-serif;
   color: var(--dark);
   padding: 20px;
 }
@@ -18,12 +18,12 @@ section {
 .text {
   margin-left: 20px;
   padding: 0 20px;
-  font-family: var(--text-font);
+  font-family: var(--text-font), sans-serif;
   color: var(--grey);
 }
 
 .p1 {
- padding-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .text p {
@@ -34,7 +34,7 @@ section {
 .list {
   margin-left: 20px;
   padding: 0 20px;
-  font-family: var(--text-font);
+  font-family: var(--text-font), sans-serif;
   color: var(--grey);
 }
 
@@ -43,7 +43,7 @@ section {
 }
 
 .list li {
-  font-family: var(--text-font);
+  font-family: var(--text-font), sans-serif;
   font-size: 2rem;
 }
 
@@ -52,7 +52,7 @@ section {
   .tittle {
     margin-top: 20px;
     text-align: center;
-    font-family: var(--tittle-font);
+    font-family: var(--tittle-font), sans-serif;
   }
 
   .tittle h1 {
@@ -61,7 +61,7 @@ section {
   }
 
   .p1 {
-    padding:0;
+    padding: 0;
   }
 
   .text p {

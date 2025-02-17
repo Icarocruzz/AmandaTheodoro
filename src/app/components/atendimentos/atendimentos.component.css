@@ -28,7 +28,7 @@ main {
 
 .tittle h1 {
   font-size: 5rem;
-  font-family: var(--tittle-font);
+  font-family: var(--tittle-font), sans-serif;
   color: var(--dark);
   padding: 20px;
 }
@@ -36,7 +36,7 @@ main {
 .text {
   margin-left: 20px;
   padding: 0 20px;
-  font-family: var(--text-font);
+  font-family: var(--text-font), sans-serif;
   color: var(--grey);
 }
 
@@ -91,7 +91,7 @@ main {
   .tittle {
     margin-top: 20px;
     text-align: center;
-    font-family: var(--tittle-font);
+    font-family: var(--tittle-font), sans-serif;
   }
 
   .tittle h1 {

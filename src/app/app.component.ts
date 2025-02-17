@@ -5,10 +5,11 @@ import {MatIconModule} from '@angular/material/icon';
 import {BannerComponent} from './components/banner/banner.component';
 import {ObjetivosComponent} from './components/objetivos/objetivos.component';
 import {AtendimentosComponent} from './components/atendimentos/atendimentos.component';
+import {CarrosselComponent} from './components/carrossel/carrossel.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NavbarComponent, BannerComponent, ObjetivosComponent, AtendimentosComponent],
+  imports: [RouterOutlet, NavbarComponent, BannerComponent, ObjetivosComponent, AtendimentosComponent, CarrosselComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

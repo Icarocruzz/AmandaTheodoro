@@ -1,0 +1,20 @@
+<main>
+  <section>
+    <div class="tittle">
+      <h1>Casos em que a terapia pode ajudar</h1>
+    </div>
+    <ngx-slick-carousel class="carousel" [config]="slideConfig">
+      <div ngxSlickItem *ngFor="let card of cards" class="slide">
+        <div class="card">
+          <h3>{{ card.title }}</h3>
+        </div>
+      </div>
+    </ngx-slick-carousel>
+
+    <div class="btn-content">
+      <button class="btn">
+        AGENDAR SESSÃO
+      </button>
+    </div>
+  </section>
+</main>

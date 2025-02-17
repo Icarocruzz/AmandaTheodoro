@@ -17,6 +17,10 @@ main {
   text-align: center;
 }
 
+.content {
+  padding: 50px;
+}
+
 .image-container {
   flex-grow: 0.4;
   margin-left: 50px;
@@ -102,7 +106,7 @@ main {
   }
 
   .tittle {
-    margin: 10px;
+    margin: 5px;
   }
 
   .tittle p {
