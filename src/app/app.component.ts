@@ -9,10 +9,11 @@ import {CarrosselComponent} from './components/carrossel/carrossel.component';
 import {AboutComponent} from './components/about/about.component';
 import {BeneficiosComponent} from './components/beneficios/beneficios.component';
 import {AcompanhamentoComponent} from './components/acompanhamento/acompanhamento.component';
+import {FooterComponent} from './components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NavbarComponent, BannerComponent, ObjetivosComponent, AtendimentosComponent, CarrosselComponent, AboutComponent, BeneficiosComponent, AcompanhamentoComponent],
+  imports: [RouterOutlet, NavbarComponent, BannerComponent, ObjetivosComponent, AtendimentosComponent, CarrosselComponent, AboutComponent, BeneficiosComponent, AcompanhamentoComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

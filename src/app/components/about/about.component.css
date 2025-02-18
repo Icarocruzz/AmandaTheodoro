@@ -3,11 +3,11 @@ main {
   flex-direction: row;
   width: 100%;
   align-items: center;
-  background: var(--gradient);
+  background: var(--light);
 }
 
 .image-container {
-  width: 70%;
+  width: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -19,11 +19,12 @@ main {
 .content-container {
   width: 100%;
   margin-right: 80px;
-
+  padding: 20px;
 }
 
 .main-content {
   text-align: start;
+  margin: 50px;
 }
 
 .tittle h1 {
@@ -99,11 +100,6 @@ main {
     padding: 10px;
   }
 
-  .p1 {
-    margin: 0;
-    padding-bottom: 20px;
-  }
-
   .text p {
     font-size: 1.1rem;
   }
@@ -121,3 +117,4 @@ main {
     color: var(--btn-green);
   }
 }
+
