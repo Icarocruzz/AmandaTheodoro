@@ -12,11 +12,15 @@
         </div>
         <div class="desktop_menu" [class.mobile_menu]="menuValue">
           <ul>
-            <li (click)="closeMenu()">Objetivos</li>
-            <li (click)="closeMenu()">Atendimentos</li>
-            <li (click)="closeMenu()">Psicoterapia</li>
-            <li (click)="closeMenu()">Contatos</li>
+            <li (click)="scrollTo('objetivos')">Objetivos</li>
+            <li (click)="scrollTo('atendimentos')">Atendimentos</li>
+            <li (click)="scrollTo('casos')">Casos</li>
+            <li (click)="scrollTo('about')">Sobre mim</li>
+            <li (click)="scrollTo('ajuda')">Como posso te ajudar</li>
+            <li (click)="scrollTo('acompanhamento')">Acompanhamento</li>
+            <li (click)="scrollTo('acompanhamento')">Entre em Contato</li>
           </ul>
+
         </div>
       </div>
     </div>

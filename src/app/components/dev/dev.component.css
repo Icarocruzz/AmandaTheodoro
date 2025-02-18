@@ -1,0 +1,17 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--dev-bar);
+}
+
+.dev {
+  padding: 10px
+}
+
+.dev a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: var(--light);
+  font-family: var(--tittle-font), sans-serif;
+}
