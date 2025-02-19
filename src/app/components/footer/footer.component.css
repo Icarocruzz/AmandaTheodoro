@@ -41,9 +41,14 @@ section {
 }
 
 .links ul li:hover {
+  color: var(--light);
   font-size: 1.5rem;
   cursor: pointer;
   transition: font-size 0.25s ease;
+}
+
+.links a {
+  text-decoration: none;
 }
 
 .tópicos {

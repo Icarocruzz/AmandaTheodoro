@@ -41,7 +41,7 @@ section {
   color: var(--btn-purple);
 }
 
-@media screen and (min-width: 128px) and (max-width: 900px) {
+@media screen and (min-width: 128px) and (max-width: 1200px) {
 
   .tittle h1 {
     font-size: 2rem;

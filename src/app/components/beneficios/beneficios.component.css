@@ -44,7 +44,7 @@ main {
   font-size: 2rem;
 }
 
-@media screen and (min-width: 128px) and (max-width: 900px) {
+@media screen and (min-width: 128px) and (max-width: 1200px) {
   main {
     display: flex;
     flex-direction: column;
