@@ -18,7 +18,8 @@ main {
 
 .main-content {
   text-align: start;
-  margin: 50px;
+  margin: 80px;
+  padding: 20px;
 }
 
 .tittle h2 {

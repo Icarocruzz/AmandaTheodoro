@@ -17,3 +17,7 @@
   --btn-purple:#A020F0;
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+

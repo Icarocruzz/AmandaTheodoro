@@ -5,7 +5,8 @@ section {
 }
 
 .main-content {
-  margin: 50px;
+  margin: 80px;
+  padding: 20px;
 }
 
 .tittle h1 {
@@ -48,6 +49,10 @@ section {
 }
 
 @media screen and (min-width: 128px) and (max-width: 1200px) {
+
+  .main-content {
+    padding: 0;
+  }
 
   .tittle {
     margin-top: 20px;
