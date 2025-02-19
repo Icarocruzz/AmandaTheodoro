@@ -28,7 +28,7 @@ main {
 }
 
 .tittle h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   font-family: var(--tittle-font), sans-serif;
   color: var(--dark);
   padding: 20px;
@@ -47,7 +47,7 @@ main {
 
 .text p {
   text-align: justify;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .btn-atendimento {

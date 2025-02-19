@@ -19,7 +19,7 @@ section {
 }
 
 .tittle h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: var(--tittle-font);
   color: var(--secondary);
 }
@@ -58,5 +58,11 @@ section {
   .btn:hover {
     background-color: var(--white);
     color: var(--btn-purple);
+  }
+}
+
+@media screen and (min-width: 128px) and (max-width: 450px) {
+  .btn {
+    width: 200px;
   }
 }

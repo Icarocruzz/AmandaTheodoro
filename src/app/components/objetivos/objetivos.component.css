@@ -10,7 +10,7 @@ section {
 }
 
 .tittle h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   font-family: var(--tittle-font), sans-serif;
   color: var(--dark);
   padding: 20px;
@@ -29,7 +29,7 @@ section {
 
 .text p {
   text-align: justify;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .list {
@@ -40,12 +40,13 @@ section {
 }
 
 .list h2 {
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 1.6rem;
 }
 
 .list li {
   font-family: var(--text-font), sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 128px) and (max-width: 1200px) {

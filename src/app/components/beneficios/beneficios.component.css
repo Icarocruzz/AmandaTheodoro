@@ -23,7 +23,7 @@ main {
 }
 
 .tittle h2 {
-  font-size: 5rem;
+  font-size: 3rem;
   font-family: var(--tittle-font), sans-serif;
   color: var(--dark);
   padding: 20px;
@@ -42,7 +42,7 @@ main {
 
 .list li {
   font-family: var(--text-font), sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 128px) and (max-width: 1200px) {
@@ -67,7 +67,7 @@ main {
     color: var(--black);
   }
 
-  .list li {
+  .list ul li {
     font-size: 1.1rem;
   }
 
