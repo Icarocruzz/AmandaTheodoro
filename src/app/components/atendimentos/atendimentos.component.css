@@ -8,7 +8,7 @@ main {
 
 .image-container {
   flex-grow: 0.4;
-  margin-left: 50px;
+  margin-left: 20px;
   margin-right: 0;
   padding: 0;
 }
@@ -42,7 +42,7 @@ main {
 }
 
 .p1 {
-  padding-bottom: 70px;
+  padding-bottom: 40px;
 }
 
 .text p {
@@ -77,8 +77,11 @@ main {
   }
 
   .image-container {
-    width: 50%;
-    margin: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
   }
 
   .image-container img {
@@ -86,8 +89,13 @@ main {
     border-radius: 20px 50px 20px 50px;
   }
 
+  .content-container {
+    margin: 0;
+    padding: 0 0 10px;
+  }
+
   .tittle {
-    margin-top: 20px;
+    margin-top: 0;
     text-align: center;
     font-family: var(--tittle-font), sans-serif;
   }
