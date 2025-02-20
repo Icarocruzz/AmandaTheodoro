@@ -21,7 +21,6 @@ export class CarrosselComponent {
     { title: 'Timidez' },
   ];
 
-  // Configuração do carousel
   slideConfig = {
     slidesToShow: 4,
     slidesToScroll: 1,
