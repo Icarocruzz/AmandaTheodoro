@@ -21,6 +21,7 @@ section {
   padding: 0 20px;
   font-family: var(--text-font), sans-serif;
   color: var(--grey);
+  text-align: start;
 }
 
 .p1 {
@@ -28,7 +29,6 @@ section {
 }
 
 .text p {
-  text-align: justify;
   font-size: 1.5rem;
 }
 
@@ -45,6 +45,7 @@ section {
 }
 
 .list li {
+  text-align: start;
   font-family: var(--text-font), sans-serif;
   font-size: 1.5rem;
 }

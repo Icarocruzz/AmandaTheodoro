@@ -23,7 +23,7 @@ export class CarrosselComponent {
 
   slideConfig = {
     slidesToShow: 4,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     autoplay: true,
     autoplaySpeed: 3000,
     pauseOnHover: true,

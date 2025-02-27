@@ -45,7 +45,6 @@ nav {
     background: var(--dark);
     width: 280px;
     height: 100%;
-    z-index: 50;
   }
 
   .desktop_menu ul li {

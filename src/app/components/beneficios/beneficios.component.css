@@ -18,7 +18,6 @@ main {
 }
 
 .main-content {
-  text-align: start;
   margin: 80px;
   padding: 20px;
 }
@@ -32,6 +31,7 @@ main {
 
 .list {
   margin-left: 20px;
+  text-align: start;
   padding: 0 20px;
   font-family: var(--text-font), sans-serif;
   color: var(--grey);
