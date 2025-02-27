@@ -70,11 +70,12 @@ main {
 
   .list ul li {
     font-size: 1.1rem;
+    text-align: start;
   }
 
 }
 
-@media screen and (min-width: 128px) and (max-width: 550px) {
+@media screen and (min-width: 128px) and (max-width: 750px) {
   .main-content {
     margin: 0;
     padding: 0 0 10px;
