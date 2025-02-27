@@ -9,6 +9,8 @@ import {SlickCarouselModule} from 'ngx-slick-carousel';
   styleUrl: './carrossel.component.css'
 })
 export class CarrosselComponent {
+
+
   cards = [
     { title: 'ANSIEDADE'},
     { title: 'DEPRESSÃO'},

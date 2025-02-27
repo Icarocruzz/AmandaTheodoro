@@ -14,7 +14,7 @@ import {DevComponent} from './components/dev/dev.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NavbarComponent, BannerComponent, ObjetivosComponent, AtendimentosComponent, CarrosselComponent, AboutComponent, BeneficiosComponent, AcompanhamentoComponent, FooterComponent, DevComponent],
+  imports: [ NavbarComponent, BannerComponent, ObjetivosComponent, AtendimentosComponent, CarrosselComponent, AboutComponent, BeneficiosComponent, AcompanhamentoComponent, FooterComponent, DevComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
