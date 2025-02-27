@@ -82,6 +82,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    margin: 0;
   }
 
   .image-container img {
